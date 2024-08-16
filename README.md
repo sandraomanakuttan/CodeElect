@@ -2,7 +2,12 @@
 CodeElect
 Vote System Dev is a platform to cast your vote for the best programming languages, frameworks, databases, and other essential tools in modern software development. Celebrate the technologies that drive digital innovation!
 
-![Home Page Screenshot](evote1.png)
+![](evote1.png)
+![](evote2.png)
+![](evote3.png)
+![](evote4.png)
+![](evote5.png)
+![](evote6.png)
 
 
 
