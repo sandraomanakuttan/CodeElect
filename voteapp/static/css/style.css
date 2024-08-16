@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; /* Use a clean, modern font */
+}
+
+body {
+    background-color: #f4f4f9; /* Light background for a fresh look */
+}
+
+/* Form Container Styles */
+.formContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    padding: 0 20px; /* Add some horizontal padding */
+}
+
+.signupForm {
+    width: 400px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2); /* Softer shadow */
+    padding: 20px;
+    border-radius: 12px; /* Slightly rounded corners */
+    background-color: #ffffff; /* White background for contrast */
+    border: 1px solid #e0e0e0; /* Light border for subtle definition */
+}
+
+.signupForm h4, .signupForm small {
+    text-align: center;
+    color: #333; /* Dark gray text for better readability */
+}
+
+.signupForm button {
+    width: 100%;
+    background-color: #007bff; /* Stylish blue button */
+    color: #ffffff; /* White text for contrast */
+    border: none;
+    padding: 10px;
+    border-radius: 8px; /* Rounded button corners */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.signupForm button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.signupForm .error {
+    color: #e74c3c; /* Bright red for errors */
+    font-size: 14px;
+}
+
+.loginError {
+    text-align: center;
+    color: #e74c3c; /* Bright red for login errors */
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* VoteContainer Styles */
+/* .voteContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    padding: 0 20px; /* Add some horizontal padding 
+} */
+
+
+/* VoteContainer Styles */
+.voteContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    padding: 20px; /* Add padding for better spacing */
+    background: #f0f4f8; /* Light background color for contrast */
+    border-radius: 12px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 800px; /* Limit the width for better readability */
+    margin: auto; /* Center the container horizontally */
+}
+
+.voteContainer h2 {
+    font-size: 2rem; /* Larger font size for the main heading */
+    font-weight: 700; /* Bold font weight */
+    color: #333; /* Dark text color for emphasis */
+    margin-bottom: 20px; /* Space below the heading */
+    text-align: center; /* Center the text */
+}
+
+.voteContainer label {
+    font-size: 1.2rem; /* Slightly larger font size for labels */
+    font-weight: 500; /* Medium bold font weight */
+    color: #555; /* Medium gray color */
+    margin-bottom: 10px; /* Space below each label */
+    text-align: center; /* Center the text */
+}
+
+.voteContainer button {
+    background-color: #007bff; /* Primary color for buttons */
+    color: white; /* White text color */
+    font-size: 1rem; /* Standard font size for button text */
+    font-weight: 600; /* Bold font weight */
+    padding: 10px 20px; /* Padding inside buttons */
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Rounded corners for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+.voteContainer button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+
+
+
+
+
+
+
+.result-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    justify-content: center;
+    padding: 20px; /* Add padding around the container */
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 12px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin: 20px 0; /* Add vertical margin */
+}
+
+.sub-container {
+    width: 100%; /* Ensure it takes full width of the parent container */
+    max-width: 600px; /* Limit the width for better readability */
+}
+
+.result-container h4 {
+    font-size: 1.5rem; /* Adjust font size for better visibility */
+    color: #444; /* Darker gray for more emphasis */
+    margin-bottom: 15px; /* Reduce margin for a compact look */
+    font-family: 'Arial', sans-serif; /* Clean and modern font */
+    font-weight: 600; /* Slightly heavier font weight for emphasis */
+}
+
+.result-container small {
+    font-size: 1rem; /* Standardize font size */
+    color: #555; /* Medium gray for less emphasis */
+    font-family: 'Verdana', sans-serif; /* Readable and elegant font */
+    line-height: 1.5; /* Improve readability with line height */
+    margin-bottom: 10px; /* Add spacing between items */
+}
+
+.voteContainer button {
+    margin: 10px 0;
+    background-color: #28a745; /* Green button for votes */
+    color: #ffffff; /* White text for contrast */
+    border: none;
+    padding: 10px;
+    border-radius: 8px; /* Rounded button corners */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.voteContainer button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.voteContainer label {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333; /* Dark gray text for labels */
+}
