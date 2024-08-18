@@ -19,6 +19,8 @@ Vote System Dev is a platform to cast your vote for the best programming languag
 
 
 
+
+
 Categories
 Programming Languages: Vote for the most impactful languages.
 Frontend Frameworks: Choose the best frameworks for creating dynamic UIs.
